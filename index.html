@@ -12,24 +12,27 @@
 <body>
 	<header>
 		<img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png">
-    </header>
-    <section>
-      <form class="assignment-form" action="/sign up/" method ="post">
-        <h1>Sign up</h1>
-        <fieldset name="signup form">
+  </header>
+  <section class="popup">
+    <form role="form" class="assignment-form" action="/sign up/" method ="post">
+        <h1 class="center">Sign up</h1>
+        <fieldset name="signup form" class="form">
+         <p>
           <label for="email">Email</label>
           <input type="email" name="email" id="email" Placeholder="foo@bar.com" requried/>
-
+         </p>
+<p>
           <label for="password">Password</label>
           <input type="password" name="password" id="password" placeholder="1234passw0rd" required/>
+</p>
         </fieldset>
         <button type="sign up">Sign up</button>
-      </form>  
-    </section>
+    </form>  
+  </section class="popup">
 
-    <section>
+  <section class="center">
       <h2>Already have an account <a href="/login">Log in</a></h2>
-    </section>
+  </section>
   
 
   </body>
